@@ -4,7 +4,7 @@
 #define False 0
 
 
-int main(){
+int main(void){
     int a , b;
     scanf("%d", &a);
     scanf("%d", &b);
