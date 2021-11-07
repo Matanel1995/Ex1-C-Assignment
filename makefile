@@ -3,7 +3,7 @@ AR = ar -rcs
 FLAGS = -Wall -g
 OBJECTS_MAIN = main.o
 OBJECT_LOOP = basicClassification.o advancedClassificationLoop.o
-OBJECT_REC = basicClassification.o advencedClassificationRecursion.o main.o
+OBJECT_REC = basicClassification.o advancedClassificationRecursion.o main.o
 MATH = -lm
 
 all: loops loopd recursives recursived mains maindloop maindrec
@@ -47,8 +47,8 @@ basicClassification.o: basicClassification.c NumClass.h
 advancedClassificationLoop.o: advancedClassificationLoop.c NumClass.h
 		$(CC) $(FLAGS) -c advancedClassificationLoop.c
 
-advencedClassificationRecursion.o: advencedClassificationRecursion.c NumClass.h
-		$(CC) $(FLAGS) -c advencedClassificationRecursion.c $(MATH)
+advancedClassificationRecursion.o: advancedClassificationRecursion.c NumClass.h
+		$(CC) $(FLAGS) -c advancedClassificationRecursion.c $(MATH)
 
 .PHONY: clean all
 
