@@ -32,5 +32,5 @@ int main(){
         if(isStrong(i) == True)
             printf(" %d" ,i);
     }
-    
+    retrurn 0;
 }
