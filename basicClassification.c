@@ -25,9 +25,9 @@ int isStrong(int number){
 int isPrime(int number){
     double sqrtNumber = sqrt((double)number);
     int counter =2;
-    while (counter < sqrtNumber)
+    while (counter <= sqrtNumber)
     {
-        if(number % counter ==0){
+        if(number % counter == 0){
             return 0;
         }
         else{

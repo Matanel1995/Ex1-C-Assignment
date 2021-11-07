@@ -4,13 +4,13 @@ int main(){
     int a , b;
     scanf("%d", &a);
     scanf("%d", &b);
-    printf("The Armstrong numbers are");
+    printf("The Armstrong numbers are:");
     for (int i = a; i <= b; i++)
     {
         if(isArmstrong(i) == 1)
             printf(" %d" ,i);
     }
-    printf("\nThe Palindromes numbers are:");
+    printf("\nThe Palindromes are:");
     for (int i = a; i <= b; i++)
     {
         if(isPalindrome(i) == 1)
